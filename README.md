@@ -48,9 +48,9 @@ bash scripts/setup.sh --install
 
 ## 安装到 Codex
 
-下载本仓库，进入包含 `SKILL.md` 的目录，执行：
-
 ```bash
+git clone https://github.com/QianXiguaAI/video-privacy-blur.git
+cd video-privacy-blur
 skill_dir="${CODEX_HOME:-$HOME/.codex}/skills/video-privacy-blur"
 mkdir -p "$skill_dir"
 cp -R SKILL.md agents references scripts "$skill_dir/"
@@ -204,3 +204,7 @@ video-privacy-blur/
 ```bash
 python3 scripts/package_skill.py --output /absolute/video-privacy-blur.zip
 ```
+
+## 许可
+
+[MIT](LICENSE)
