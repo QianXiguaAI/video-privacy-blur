@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频隐私模糊"
+  short_description: "本地识别视频隐私，用高斯模糊平滑跟随，并按截图和时间段调整"
+  default_prompt: "使用 $video-privacy-blur 给本地视频里的敏感文字做高斯模糊和平滑跟随，并检查导出效果。"
